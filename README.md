@@ -1,17 +1,43 @@
-# tugasimplementasiflutter
+# Implementasi UI Katalog Produk dengan Flutter
 
-A new Flutter project.
+## Deskripsi Project
+Project ini merupakan implementasi User Interface (UI) katalog produk menggunakan framework Flutter.  
+Tampilan dibuat berdasarkan referensi desain yang diberikan pada tugas dengan menerapkan widget fundamental Flutter seperti:
 
-## Getting Started
+- Column
+- Row
+- ListView
+- Image
 
-This project is a starting point for a Flutter application.
+Project ini menampilkan:
+- Search bar
+- Daftar kategori produk horizontal
+- Grid katalog produk
+- Informasi harga dan diskon produk
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+# Screenshot Aplikasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tambahkan screenshot aplikasi kalian di sini.
+
+Contoh:
+
+![Screenshot App](assets/screenshot.png)
+
+---
+
+# Widget yang Digunakan
+
+## 1. Column
+Digunakan untuk menyusun widget secara vertikal.
+
+Contoh:
+```dart
+Column(
+  children: [
+    searchBar(),
+    categoryList(),
+    productGrid(),
+  ],
+)
