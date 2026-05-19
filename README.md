@@ -50,9 +50,8 @@ Fitur yang terdapat pada halaman:
 - Harga produk
 - Diskon produk
 
-Tambahkan screenshot hasil aplikasi pada bagian ini.
 
 Contoh:
 
 ```md
-![Screenshot](assets/screenshot_contoh.png)
+[Screenshot](assets/screenshot_contoh.png)
