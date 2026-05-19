@@ -49,9 +49,3 @@ Fitur yang terdapat pada halaman:
 - Product grid
 - Harga produk
 - Diskon produk
-
-
-Contoh:
-
-```md
-![Screenshot](assets/screenshot_contoh.png)
