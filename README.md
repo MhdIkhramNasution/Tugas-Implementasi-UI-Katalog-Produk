@@ -1,43 +1,58 @@
 # Implementasi UI Katalog Produk dengan Flutter
 
-## Deskripsi Project
-Project ini merupakan implementasi User Interface (UI) katalog produk menggunakan framework Flutter.  
-Tampilan dibuat berdasarkan referensi desain yang diberikan pada tugas dengan menerapkan widget fundamental Flutter seperti:
+Project ini dibuat untuk memenuhi tugas implementasi User Interface (UI) katalog produk menggunakan framework Flutter.
+
+Pada aplikasi ini, saya membuat tampilan katalog produk fashion sederhana dengan konsep modern shopping app. Tampilan terdiri dari:
+
+- Search bar
+- Kategori produk horizontal
+- Grid daftar produk
+- Informasi harga produk
+- Badge diskon
+
+Dalam pembuatan project ini saya menerapkan beberapa widget fundamental Flutter seperti:
 
 - Column
 - Row
 - ListView
+- GridView
 - Image
+- Container
+- Padding
+- Expanded
 
-Project ini menampilkan:
-- Search bar
-- Daftar kategori produk horizontal
-- Grid katalog produk
-- Informasi harga dan diskon produk
-
----
-
-# Screenshot Aplikasi
-
-Tambahkan screenshot aplikasi kalian di sini.
-
-Contoh:
-
-![Screenshot App](assets/screenshot.png)
+Tampilan aplikasi dibuat menyesuaikan referensi desain yang diberikan dosen dengan beberapa penyesuaian warna dan asset agar terlihat lebih menarik.
 
 ---
 
-# Widget yang Digunakan
+# Tujuan Pembuatan
 
-## 1. Column
-Digunakan untuk menyusun widget secara vertikal.
+Tujuan dari project ini adalah:
+
+1. Memahami cara menyusun layout menggunakan Flutter.
+2. Memahami penggunaan widget dasar Flutter.
+3. Mengimplementasikan scrolling horizontal dan vertical.
+4. Memahami penggunaan asset image pada Flutter.
+5. Melatih kemampuan membuat UI yang responsive dan rapi.
+
+---
+
+# Tampilan Aplikasi
+
+## Halaman Product Catalog
+
+Fitur yang terdapat pada halaman:
+
+- AppBar sederhana
+- Search field
+- Kategori produk horizontal
+- Product grid
+- Harga produk
+- Diskon produk
+
+Tambahkan screenshot hasil aplikasi pada bagian ini.
 
 Contoh:
-```dart
-Column(
-  children: [
-    searchBar(),
-    categoryList(),
-    productGrid(),
-  ],
-)
+
+```md
+![Screenshot](assets/screenshot_contoh.png)
