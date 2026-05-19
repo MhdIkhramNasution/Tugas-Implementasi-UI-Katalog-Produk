@@ -54,4 +54,4 @@ Fitur yang terdapat pada halaman:
 Contoh:
 
 ```md
-[Screenshot](assets/screenshot_contoh.png)
+![Screenshot](assets/screenshot_contoh.png)
